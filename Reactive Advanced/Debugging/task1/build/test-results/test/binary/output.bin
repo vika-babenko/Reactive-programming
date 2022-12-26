@@ -1,0 +1,15 @@
+W14:56:23.411 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+s14:56:46.974 [Test worker] DEBUG reactor.core.publisher.Hooks - Enabling stacktrace debugging via onOperatorDebug
+x14:56:48.378 [single-1] INFO reactor.Flux.OnAssembly.1 - | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+O14:56:48.430 [single-1] INFO reactor.Flux.OnAssembly.1 - | request(unbounded)
+F14:56:49.594 [single-1] INFO reactor.Flux.OnAssembly.1 - | onNext(1)
+F14:56:49.706 [single-1] INFO reactor.Flux.OnAssembly.1 - | onNext(0)
+F14:56:49.817 [single-1] INFO reactor.Flux.OnAssembly.1 - | onNext(0)
+F14:56:49.928 [single-1] INFO reactor.Flux.OnAssembly.1 - | onNext(0)
+F14:56:50.041 [single-1] INFO reactor.Flux.OnAssembly.1 - | onNext(0)
+F14:56:50.150 [single-1] INFO reactor.Flux.OnAssembly.1 - | onNext(0)
+F14:56:50.266 [single-1] INFO reactor.Flux.OnAssembly.1 - | onNext(1)
+F14:56:50.388 [single-1] INFO reactor.Flux.OnAssembly.1 - | onNext(1)
+F14:56:50.499 [single-1] INFO reactor.Flux.OnAssembly.1 - | onNext(1)
+F14:56:50.616 [single-1] INFO reactor.Flux.OnAssembly.1 - | onNext(1)
+E14:56:50.619 [single-1] INFO reactor.Flux.OnAssembly.1 - | cancel()

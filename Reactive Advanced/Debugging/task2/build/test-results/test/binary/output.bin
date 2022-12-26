@@ -1,0 +1,17 @@
+W12:35:11.567 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+è12:35:11.575 [Test worker] DEBUG reactor.core.publisher.Hooks - Hooking onEachOperator: DLMTask2Tests$$Lambda$331/0x0000000100218248@4f1bfe23
+c12:35:13.743 [Test worker] INFO bye - | onSubscribe([Fuseable] FluxPublishOn.PublishOnSubscriber)
+<12:35:13.755 [Test worker] INFO bye - | request(unbounded)
+512:35:13.870 [parallel-1] INFO hello - request(256)
+012:35:13.908 [single-1] INFO bye - | onNext(0)
+012:35:13.908 [single-1] INFO bye - | onNext(1)
+012:35:13.909 [single-1] INFO bye - | onNext(2)
+012:35:13.948 [single-1] INFO bye - | onNext(3)
+012:35:13.950 [single-1] INFO bye - | onNext(4)
+012:35:13.952 [single-1] INFO bye - | onNext(5)
+012:35:13.954 [single-1] INFO bye - | onNext(6)
+012:35:13.954 [single-1] INFO bye - | onNext(7)
+012:35:13.978 [single-1] INFO bye - | onNext(8)
+012:35:13.979 [single-1] INFO bye - | onNext(9)
+/12:35:13.981 [single-1] INFO bye - | cancel()
+l12:35:14.482 [Test worker] DEBUG reactor.core.publisher.Hooks - Reset to factory defaults : onEachOperator
